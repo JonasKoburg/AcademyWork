@@ -50,14 +50,16 @@ print(y)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Take two lists, say for example these two:
-
-  a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-  b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-
-and write a program that returns a list that contains only the elements that are common between the lists (without duplicates). 
-Make sure your program works on two lists of different sizes.
+Write a program that takes a list of numbers (for example, a = [5, 10, 15, 20, 25]) and makes a new list 
+of only the first and last elements of the given list. For practice, write this code inside a function.
 
 
 My solution:
+
+x = [2, 5, 9, 27, 56, 386, 977, 3876]
+
+def y(x):
+    return[x[0], x[-1]]
+
+print(y(x))
 
