@@ -27,3 +27,37 @@ a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 for nums in a:
     if nums < 5:
         print(nums)
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Create a program that asks the user for a number and then prints out a list of all the divisors of that number.
+
+My Solution:
+
+user_number = int(input("Enter a whole Number: "))
+
+y = []
+x = range(1, user_number + 1)
+
+
+
+for nums in x:
+    if user_number / nums and user_number % nums == 0:
+        y.append(nums)
+
+print(y)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Take two lists, say for example these two:
+
+  a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+  b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+and write a program that returns a list that contains only the elements that are common between the lists (without duplicates). 
+Make sure your program works on two lists of different sizes.
+
+
+My solution:
+
